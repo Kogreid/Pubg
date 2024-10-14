@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+header{
+    background-color: black;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 82px;
+}
+.navbar{
+    padding: 18px 57px;
+}
+.layed{
+    background-color: orange;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    height: 82px;
+    width: 192px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+.layed:hover{
+    background-color: black;
+    color: white;
+}
+.iev{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: left;
+    background-color: black;
+    border: none;
+    color: white;    
+}
+.play{
+    display: flex;
+    align-items: center;
+    padding: 57px;
+}
+.subnav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(34, 34, 34, 1);
+    padding: 15px;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+}
+.game_info{
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: left;
+    border-style: none;
+    background: rgba(34, 34, 34, 1);}
+
+.main_body{
+    background-image: url(assets/imgs/image\ 5.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+.Desk{
+    background: rgba(241, 169, 0, 0.33);
+    width: 966px;
+    height: 202px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.45px;
+    margin-bottom: 142px;
+    color: white;
+}
+.Console{
+    background-color: black;
+    color: white;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: center;
+    width: 235px;
+    height: 73px;
+    transition: all 1s;
+}
+.Console:hover{
+    background-color: orange;
+    color: black;
+    transition: all 1s;
+}
+.push{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+    padding: 349px 453px 31px 453px; 
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.kir{
+    display: flex;
+    background-color: black;
+    gap: 52px;
+    justify-content: space-around;
+    padding: 36px 100px;
+}
